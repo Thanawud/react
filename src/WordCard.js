@@ -49,7 +49,7 @@ export default class WordCard extends Component {
             } else {
                 this.setState({
                     guess: [],
-                    attempt: this.state.attempt + 2
+                    attempt: this.state.attempt + 3
                 })
             }
         }
