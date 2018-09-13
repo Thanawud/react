@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-
 export default class CharacterCard extends Component {
  constructor(props){
  super(props)
@@ -11,7 +10,7 @@ export default class CharacterCard extends Component {
 
  activate = () => {
  if(!this.state.active){
- this.setState({active: true})
+ this.setState({active: true })
  }
  }
  render(){
